@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/PersonalTrainer/static/css/main.7adbf70d.chunk.css",
+    "main.js": "/PersonalTrainer/static/js/main.4e0aa794.chunk.js",
+    "main.js.map": "/PersonalTrainer/static/js/main.4e0aa794.chunk.js.map",
+    "runtime-main.js": "/PersonalTrainer/static/js/runtime-main.1f3512d5.js",
+    "runtime-main.js.map": "/PersonalTrainer/static/js/runtime-main.1f3512d5.js.map",
+    "static/js/2.342a115b.chunk.js": "/PersonalTrainer/static/js/2.342a115b.chunk.js",
+    "static/js/2.342a115b.chunk.js.map": "/PersonalTrainer/static/js/2.342a115b.chunk.js.map",
+    "index.html": "/PersonalTrainer/index.html",
+    "precache-manifest.eda5591774c7b59913bcbd70a45f97fc.js": "/PersonalTrainer/precache-manifest.eda5591774c7b59913bcbd70a45f97fc.js",
+    "service-worker.js": "/PersonalTrainer/service-worker.js",
+    "static/css/main.7adbf70d.chunk.css.map": "/PersonalTrainer/static/css/main.7adbf70d.chunk.css.map",
+    "static/js/2.342a115b.chunk.js.LICENSE.txt": "/PersonalTrainer/static/js/2.342a115b.chunk.js.LICENSE.txt",
+    "static/media/SectionOne.css": "/PersonalTrainer/static/media/gymImg.e2525696.jpg",
+    "static/media/App.css": "/PersonalTrainer/static/media/cityDesktop.dea97e6f.jpg",
+    "static/media/me.jpg": "/PersonalTrainer/static/media/me.9a83cc8c.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1f3512d5.js",
+    "static/js/2.342a115b.chunk.js",
+    "static/css/main.7adbf70d.chunk.css",
+    "static/js/main.4e0aa794.chunk.js"
+  ]
+}
