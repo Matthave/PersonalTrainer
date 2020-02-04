@@ -1,0 +1,180 @@
+.promoModal{
+    position: fixed;
+    transform: translate(-50%,-50%);
+    width: 85vw;
+    height: auto;
+    background-color: rgba(0,0,0,0.9);
+    z-index: 999;
+    transition: .8s linear;
+    box-shadow: 0 0 1px 0.5px silver;
+    padding: 15px 0px;
+    animation: showLittle 5s linear infinite both;
+    
+}
+    .promoModal h2{
+        margin: 15px 0px;
+        letter-spacing: 2px;
+        font-size: 12px;
+        text-align: center;
+        color: #996515;
+        font-family: 'Open Sans Condensed', sans-serif;
+    }
+    .promoModal h1{
+        font-size: 14px;
+        padding: 2px 0px;
+        margin: 15px 0px;
+        letter-spacing: 4px;
+        background: linear-gradient(-45deg, rgba(153,101,21,1) 0%, rgba(152,116,62,1) 59%, rgba(157,131,92,1) 75%);
+        text-shadow: 2px 2px black;
+        box-shadow: 0px 0px 0.5px 0.5px silver;
+        font-family: 'Open Sans Condensed', sans-serif;
+        text-align: center;
+        color: white;
+    }
+    
+    h1.promo{
+        font-size: 14px;
+        }
+
+    div.countingDown{
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        color: white;
+    }
+        
+    h2.h2{
+            display: flex;
+            flex-direction: column-reverse;
+            margin:0
+    }
+           .h2 div{
+                letter-spacing: 4px;
+                font-size: 12px;
+           }
+            .spanD, .spanH, .spanM, .spanS{
+                margin-left: 5px;
+                font-size: 24px;
+                color: white;
+            }
+
+    img.present{
+        display: block;
+        position: fixed;
+        bottom: 0;
+        left: 94%;
+        transform: rotate(45deg);
+        width: 20vw;
+        animation: presentShake 5s linear infinite both;
+        opacity: 0.85;
+        cursor: pointer;
+    }
+
+    .xBtnPromo{
+      position: fixed;
+      top:1%;
+      right:calc(50% - 12.5px);
+      width: 20px;
+      height: 20px;
+      line-height: 20px;
+      background-color: #fff;
+      border:1px solid black;
+      border-radius: 50%;
+      text-align: center;
+      color:black;
+      font-size: 15px;
+      cursor: pointer;
+      transform: rotate(0deg);
+      transition: 0.2s linear;
+  }
+  
+  .xBtnPromo:hover{
+      transform: rotate(360deg);
+      color:darkcyan
+  }
+        @keyframes presentShake{
+            0%
+                {transform: rotate(45deg)}
+            89.9%
+                {transform: rotate(45deg)}
+            90%
+                {transform: rotate(45deg)}
+            91%
+                {transform: rotate(51deg)}
+            92%
+                {transform: rotate(39deg)}
+            93%
+                {transform: rotate(51deg)}
+            94%
+                {transform: rotate(39deg)}
+            95%
+                {transform: rotate(51deg)}
+            96%
+                {transform: rotate(39deg)}
+            97%
+                {transform: rotate(51deg)}
+            98%
+                {transform: rotate(39deg)}
+            99%
+                {transform: rotate(51deg)}
+            100%
+                {transform: rotate(45deg)}
+        }
+
+
+        @media (min-width: 850px){
+          .promoModal h2{
+            letter-spacing: 4px;
+            font-size: 18px;
+        }
+        .promoModal h1{
+          font-size: 24px;
+          letter-spacing: 5px;
+      }
+      
+      h1.promo{
+          font-size: 26px;
+          margin-top:30px;
+          }
+
+          .h2 div{
+            letter-spacing: 4px;
+            font-size: 16px;
+       }
+        .spanD, .spanH, .spanM, .spanS{
+            margin-left: 5px;
+            font-size: 30px;
+        }
+
+        .xBtnPromo{
+          top:2%;
+          right:calc(50% - 12.5px);
+          width: 25px;
+          height: 25px;
+          line-height: 25px;
+          font-size: 16px;
+      }
+        }
+
+
+        /*//////////////////////////////////////////////////////////*/
+
+        @media (min-width: 1150px){
+      h1.promo{
+          font-size: 30px;
+          margin-top:30px;
+          }
+
+      .h2 div{
+            letter-spacing: 10px;
+            font-size: 20px;
+       }
+        .spanD, .spanH, .spanM, .spanS{
+            margin-left: 5px;
+            font-size: 55px;
+        }
+
+        img.present{
+          width: 15vw;
+      }
+        }

@@ -1,0 +1,50 @@
+.slider {
+    width: 100%;
+    padding:10px;
+    margin:50px 0px;
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 16px;
+    font-size: 12px;
+    text-shadow: 1px 1px black;
+    box-shadow:0px 0px 1px 1px black;
+    color: white;
+    transition: 0.5s linear;
+}
+
+@media (min-width: 640px){
+.slider{
+    font-size: 18px;
+    padding:12px 12px;
+    line-height: 24px;
+}
+}
+
+/*//////////////////////////////////////////////////////////*/
+
+@media (min-width: 1024px){
+    .slider{
+        font-size: 22px;
+        line-height: 28px;
+    }
+    }
+
+    /*//////////////////////////////////////////////////////////*/
+
+@media (min-width: 1150px){
+    .slider{
+        font-size: 24px;
+        line-height: 30px;
+    }
+    }
+
+    
+    /*//////////////////////////////////////////////////////////*/
+
+@media (min-width: 1300px){
+    .slider{
+        font-size: 26px;
+        line-height: 32px;
+        letter-spacing: 3px;
+    }
+    }

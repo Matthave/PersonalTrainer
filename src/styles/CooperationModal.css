@@ -1,0 +1,209 @@
+aside{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width: 90%;
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: #000;
+    border-top:1px solid silver;
+    border-bottom:1px solid silver;
+    z-index: 999;
+    transition: 0.5s linear;
+}
+
+.modal1,.modal2{
+    color:white;
+    border-top:1px solid silver;
+    border-bottom:1px solid silver;
+    margin-top: 50px;
+    padding:15px 10px;
+    text-align: center;
+    font-size: 22px;
+    cursor: pointer;
+    transition: 0.3s linear;
+    animation: modalAnimation 5s linear infinite
+}
+
+.modal1:hover, .modal2:hover{
+    background-color: rgb(15,15,15);
+}
+
+.modal1+ span{
+    color:white;
+    text-align: center;
+    margin-top:20px;
+    letter-spacing: 2px;
+    font-size: 18px;
+}
+
+ul.personal, ul.online{
+    margin: 50px 30px 0px 30px;
+    opacity: 0;
+    transition:.2s linear;
+   
+}
+
+ul.personal li, ul.online li{
+    color:white;
+    text-align: justify;
+    line-height: 1px;
+    margin-bottom:1px;
+    list-style: decimal;
+    transition:.2s linear;
+    letter-spacing: 2px;
+    font-size: 12px;
+}
+
+ul.personal.active, ul.online.active{
+opacity: 1;
+}
+
+ul.personal li.active, ul.online li.active{
+margin-bottom: 20px;
+line-height: 15px;
+}
+
+.xBtn{
+    position: fixed;
+    top:1%;
+    right:calc(50% - 17.5px);
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    background-color: #fff;
+    border:1px solid black;
+    border-radius: 50%;
+    text-align: center;
+    color:black;
+    font-size: 20px;
+    cursor: pointer;
+    transform: rotate(0deg);
+    transition: 0.2s linear;
+}
+
+.xBtn:hover{
+    transform: rotate(360deg);
+    color:darkcyan
+}
+
+aside::-webkit-scrollbar{
+    width: 1px;
+ }
+
+
+ @keyframes modalAnimation {
+     0%{
+        box-shadow: 0px 0px 0px 0px ;
+     }
+
+    0.5%{
+        box-shadow: 0px 0px 1px 1px ;
+        text-shadow: 1px 1px ;
+    }
+
+    1%{
+        box-shadow: 0px 0px 2px 2px ;
+        text-shadow: 2px 2px ;
+    }
+
+    1.5%{
+        box-shadow: 0px 0px 3px 3px ;
+        text-shadow: 3px 3px ;
+    }
+
+    4.5%{
+        box-shadow: 0px 0px 2px 2px ;
+        text-shadow: 2px 2px ;
+    }
+
+    8.5%{
+        box-shadow: 0px 0px 1px 1px ;
+        text-shadow: 1px 1px ;
+    }
+
+    14.5%{
+        box-shadow: 0px 0px 0px 0px ;
+    }
+
+  100%{
+
+  }
+ }
+
+
+ @media (min-width: 640px){
+
+    .modal1,.modal2{
+        padding:17px 10px;
+        font-size: 28px;
+    }
+
+    .modal1+ span{
+        letter-spacing: 3px;
+        font-size: 22px;
+    }
+    
+    ul.personal li, ul.online li{
+        letter-spacing: 3px;
+        font-size: 16px;
+    }
+
+    ul.personal li.active, ul.online li.active{
+        line-height: 22px;
+    }
+ }
+
+/*//////////////////////////////////////////////////////////*/
+ 
+ @media (min-width: 1024px){
+
+    .modal1,.modal2{
+        padding:17px 10px;
+        font-size: 30px;
+    }
+
+    .modal1+ span{
+        letter-spacing: 3px;
+        font-size: 24px;
+    }
+    
+    ul.personal li, ul.online li{
+        letter-spacing: 3px;
+        font-size: 19px;
+        margin: 0px 50px;
+    }
+
+    ul.personal li.active, ul.online li.active{
+        line-height: 26px;
+    }
+ }
+
+ /*//////////////////////////////////////////////////////////*/
+ 
+ @media (min-width: 1300px){
+
+    .modal1,.modal2{
+        font-size: 34px;
+    }
+
+    .modal1+ span{
+        letter-spacing: 5px;
+        font-size: 26px;
+    }
+    
+    ul.personal li, ul.online li{
+        letter-spacing: 3px;
+        font-size: 24px;
+        margin: 0px 150px;
+    }
+
+    ul.personal li.active, ul.online li.active{
+        line-height: 35px;
+    }
+ }
+

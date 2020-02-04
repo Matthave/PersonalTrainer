@@ -1,0 +1,189 @@
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    min-height: 200vh;
+    padding:70px 10px 50px 10px
+}
+
+header h2 {
+    width: 60%;
+    color: white;
+    text-shadow: 2px 1px black;
+    letter-spacing: 1px;
+    font-size: 9vw;
+}
+
+header h2::-moz-selection { 
+    color: darkcyan; 
+    background-color: #000;
+    text-shadow: 3px 3px white;
+  }
+  
+  header h2::selection { 
+    color: darkcyan; 
+    background-color: #000;
+    text-shadow: 3px 3px white;
+  }
+
+h2+h2{
+    max-width: 50%;
+    font-size: 4vw;
+    letter-spacing: 2px;
+    font-family: 'Sedgwick Ave', cursive;
+    transition: 1s linear;
+}
+
+.arrowBtn{
+    position: fixed;
+    bottom:5%;
+    right:calc(50% - 25px);
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0,0,0,0.85);
+    text-align: center;
+    border:1px white solid;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.5s linear;
+}
+
+.arrowBtn:hover{
+    box-shadow: 0px 0px 50px 30px black;
+}
+
+.arrowBtn i.one{
+    position:absolute;
+    top:-20%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    /* text-shadow: 0px -12px, 0px -24px white; */
+    font-size: 30px;
+    color:white;
+animation: arrow 2.5s infinite both
+}
+
+.arrowBtn i.two{
+    position:absolute;
+    top:-45%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    font-size: 30px;
+    color:white;
+animation: arrow 2.5s 0.25s infinite both
+}
+
+.arrowBtn i.three{
+    position:absolute;
+    top:-70%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    font-size: 30px;
+    color:white;
+    animation: arrow 2.5s 0.5s infinite both
+}
+
+.arrowBtn:hover>i{
+    animation-duration: 1.5s;
+}
+
+@keyframes arrow {
+    0%{
+
+    }
+
+    25%{
+top:50%;
+    }
+
+    50%{
+top:50%;
+    }
+
+    100%{
+top:150%
+    }
+
+
+}
+
+@media (min-width: 640px){
+    header h2 {
+        font-size: 8vw;
+    }
+    
+    h2+h2{
+        font-size: 4vw;
+        max-width: 40%;
+    }
+    
+}
+
+/*//////////////////////////////////////////////////////////*/
+
+@media (min-width: 1024px){
+    header{
+        min-height: 300vh;
+    }
+
+    header h2 {
+        font-size: 6vw;
+        max-width: 40%;
+    }
+    
+    h2+h2{
+        font-size: 3vw;
+        letter-spacing: 5px;
+    } 
+}
+
+/*//////////////////////////////////////////////////////////*/
+
+@media (min-width: 1150px){
+    header h2 {
+        font-size: 6vw;
+        letter-spacing: 3px;
+        padding-left: 20px;
+    }
+    
+    h2+h2{
+        font-size: 3vw;
+        letter-spacing: 5px;
+    } 
+
+    .arrowBtn{
+        width: 65px;
+        height: 65px;
+    }
+
+    .arrowBtn i.one{
+        font-size: 40px;
+    }
+    
+    .arrowBtn i.two{
+        font-size: 35px;
+    }
+    
+    .arrowBtn i.three{
+        font-size: 30px;
+    }
+}
+
+/*//////////////////////////////////////////////////////////*/
+
+@media (min-width: 1300px){
+    header h2 {
+        max-width:30%;
+        font-size: 5vw;
+    }
+    
+    h2+h2{
+        font-size:2vw;
+        letter-spacing: 10px;
+    } 
+}
+
+
+

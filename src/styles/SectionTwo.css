@@ -1,0 +1,335 @@
+.sectionTwo {
+    width: 85%;
+    min-height: 100vh;
+    background-color:rgba(0,0,0,.85);
+    margin: 20px auto;
+    padding: 10px 0px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.sectionTwo h2{
+    text-align: center;
+    color:white;
+    margin-bottom: 20px;
+    font-size: 22px;
+    transition: .5s linear;
+}
+
+.sectionTwo h3{
+    text-align: center;
+    color:rgba(0,150,150,0.75);
+    letter-spacing: 2px;
+    font-weight: 500;
+    margin:0px 10px 30px 10px;
+    transition: .5s linear;
+}
+
+.sectionTwo .articleWrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    transition: 1s linear;
+}
+
+.divOffer{
+    position: relative;
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    box-shadow: 0px 0px 1px 0.5px silver;
+    overflow: hidden;
+}
+
+div.cover{
+    position: absolute;
+    width:100%;
+    height: 100%;
+    line-height: 70px;
+    letter-spacing: 3px;
+    z-index: 1;
+    text-align: center;
+    color:white;
+    background-color: rgba(0,0,0,.7);
+    cursor: pointer;
+}
+
+.divOffer + p{
+    position: relative;
+    text-align: justify;
+    font-size: 14px;
+    line-height: 1px;
+    margin: 10px;
+    opacity: 0;
+    color:white;
+    transition: 0.3s linear;
+}
+
+.divOffer img.blue{
+    display: block;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    z-index: 0;
+    width: 175px; 
+    transition: 0.3s linear; 
+}
+
+.divOffer img.red{
+    display: block;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    z-index: 0;
+    width: 175px;         
+    transition: 0.3s linear; 
+}
+
+.coverImg{
+    transition: 0.5s linear;
+}
+
+/*C O O P E R A T I O N*/
+
+.divCooperation{
+    text-align: center;
+    margin-top: 20px
+}
+
+.divCooperation h2 {
+    
+    margin:60px 10px 30px 10px;
+    font-weight: 500;
+}
+
+.divCooperation span{
+    display: block;
+    font-size: 18px;
+    transition: 0.5s linear;
+}
+
+.divCooperation span+span{
+    font-size: 25px;
+    margin-top:30px;
+}
+
+.divCooperation button{
+    display: block;
+    padding: 5px 25px;
+    width:60%;
+    margin: 50px auto;
+    background-color:black;
+    border:none;
+    border-top: 1px solid rgba(0,150,150,0.75);
+    border-bottom: 1px solid rgba(0,150,150,0.75);
+    box-shadow: 0px 0px 3px 0px white;
+    font-size: 16px;
+    color:white;
+    transition: .2s linear;
+    cursor: pointer;
+}
+
+.divCooperation button:hover{
+width:100%;
+letter-spacing: 2px;
+}
+
+@media (min-width: 640px){
+    .sectionTwo h2{
+        font-size: 26px;
+    }
+    
+    .sectionTwo h3{
+     font-size: 20px;
+    }
+
+     .divOffer{
+    height: 100px;
+    }
+
+    div.cover{
+        font-size: 22px;
+        letter-spacing: 5px;
+        line-height: 100px;
+    }
+
+    .divOffer img.red, .divOffer img.blue{
+        width: 200px;
+    }
+        
+    .divOffer + p{
+        font-size: 17px;
+        line-height: 25px;
+    }
+
+    .divCooperation span{
+        font-size: 22px;
+    }
+    
+    .divCooperation span+span{
+        font-size: 27px;
+    }
+    
+    .divCooperation button{
+        font-size: 18px;
+    }
+}
+/*//////////////////////////////////////////////////////////*/
+
+@media (min-width: 850px){
+
+    .divOffer + p{
+        font-size: 19px;
+        line-height: 25px;
+        margin:20px 20px;
+    }
+}
+
+/*//////////////////////////////////////////////////////////*/
+
+@media (min-width: 1024px){
+    .sectionTwo h2{
+        font-size: 28px;
+    }
+    
+    .sectionTwo h3{
+        font-size: 24px;
+    }
+
+    .divOffer{
+        height: 125px;   
+    }
+
+    div.cover{
+        font-size: 24px;
+        letter-spacing: 6px;
+        line-height: 125px;
+        transition: 0.2s linear;
+    }
+
+    div.cover:hover{
+        letter-spacing: 10px;
+       opacity: 0.8;
+    }
+
+    .divOffer img.red, .divOffer img.blue{
+        width: 250px;
+    }
+   
+    .divCooperation h2 {
+        font-size: 30px;
+    }
+
+    .divCooperation span{
+        font-size: 24px;
+    }
+    
+    .divCooperation span+span{
+        font-size: 29px;
+    }
+    
+    .divCooperation button{
+        font-size: 20px;
+    }
+}
+
+/*//////////////////////////////////////////////////////////*/
+
+@media (min-width: 1150px){
+    .sectionTwo h2{
+        font-size: 30px;
+    }
+    
+    .sectionTwo h3{
+        font-size: 26px;
+    }
+
+    div.cover{
+        font-size: 25px;
+        letter-spacing: 7px;
+    }
+
+    div.cover:hover{
+        letter-spacing: 12px;
+        opacity: 0.8;
+    }
+
+    .divOffer img.red, .divOffer img.blue{
+        width: 260px;
+    }
+
+
+    .divOffer + p{
+        font-size: 21px;
+        margin:20px 250px;
+    }
+
+    .divCooperation h2 {
+        font-size: 32px;
+    }
+
+    .divCooperation span{
+        font-size: 26px;
+    }
+    
+    .divCooperation span+span{
+        font-size: 32px;
+    }
+    
+    .divCooperation button{
+        font-size: 22px;
+        margin: 75px auto;
+    }
+
+}
+
+/*//////////////////////////////////////////////////////////*/
+
+@media (min-width: 1300px){
+    .sectionTwo h2{
+        font-size: 45px;
+    }
+    
+    .sectionTwo h3{
+        font-size: 30px;
+    }
+
+    .divOffer{
+        height: 150px;
+    }
+
+    div.cover{
+        font-size: 30px;
+        letter-spacing: 8px;
+        line-height: 150px;
+    }
+
+    div.cover:hover{
+        letter-spacing: 15px;
+        opacity: 0.8;
+    }
+
+    .divOffer img.red, .divOffer img.blue{
+        width: 270px;
+    }
+
+    .divOffer + p{
+        font-size: 23px;
+        margin:20px 250px;
+    }
+
+    .divCooperation h2 {
+        font-size: 34px;
+    }
+
+    .divCooperation span{
+        font-size: 28px;
+    }
+    
+    .divCooperation span+span{
+        font-size: 34px;
+    }
+    
+}
