@@ -13,4 +13,11 @@ This is a simple application is one page only.
 
 ## Download Repo
 If you want to download my code,
-you must clone the repository with the command git clone https://matthave.github.io/PersonalTrainer/
+you must clone the repository with the command git clone https://github.com/Matthave/PersonalTrainer
+
+## Launching the application
+After cloning the application you must use the command 
+npm install
+
+Next:
+npm start
