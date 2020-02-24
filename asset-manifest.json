@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/PersonalTrainer/static/css/main.7adbf70d.chunk.css",
-    "main.js": "/PersonalTrainer/static/js/main.5dafe812.chunk.js",
-    "main.js.map": "/PersonalTrainer/static/js/main.5dafe812.chunk.js.map",
+    "main.js": "/PersonalTrainer/static/js/main.affe7b23.chunk.js",
+    "main.js.map": "/PersonalTrainer/static/js/main.affe7b23.chunk.js.map",
     "runtime-main.js": "/PersonalTrainer/static/js/runtime-main.1f3512d5.js",
     "runtime-main.js.map": "/PersonalTrainer/static/js/runtime-main.1f3512d5.js.map",
     "static/js/2.342a115b.chunk.js": "/PersonalTrainer/static/js/2.342a115b.chunk.js",
     "static/js/2.342a115b.chunk.js.map": "/PersonalTrainer/static/js/2.342a115b.chunk.js.map",
     "index.html": "/PersonalTrainer/index.html",
-    "precache-manifest.2636bf26addf4a11d116590f59f5f383.js": "/PersonalTrainer/precache-manifest.2636bf26addf4a11d116590f59f5f383.js",
+    "precache-manifest.7875f006b14c2762ce14b1233347ad11.js": "/PersonalTrainer/precache-manifest.7875f006b14c2762ce14b1233347ad11.js",
     "service-worker.js": "/PersonalTrainer/service-worker.js",
     "static/css/main.7adbf70d.chunk.css.map": "/PersonalTrainer/static/css/main.7adbf70d.chunk.css.map",
     "static/js/2.342a115b.chunk.js.LICENSE.txt": "/PersonalTrainer/static/js/2.342a115b.chunk.js.LICENSE.txt",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.1f3512d5.js",
     "static/js/2.342a115b.chunk.js",
     "static/css/main.7adbf70d.chunk.css",
-    "static/js/main.5dafe812.chunk.js"
+    "static/js/main.affe7b23.chunk.js"
   ]
 }
