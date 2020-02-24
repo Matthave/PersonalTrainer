@@ -10,7 +10,6 @@ class Nav extends React.Component {
   }
 
   clickHandle = (e) => {
-    console.log(e.target.name)
     this.setState({
       value: e.target.name
     })
