@@ -1,4 +1,4 @@
-### This is my first 'big project" which I made.
+# This is my first 'big project" which I made.
 This application has been created using React.
 
 ## Technologies that have been used:
@@ -14,4 +14,3 @@ This is a simple application is one page only.
 ## Download Repo
 If you want to download my code,
 you must clone the repository with the command git clone https://matthave.github.io/PersonalTrainer/
-
