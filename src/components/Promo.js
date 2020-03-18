@@ -18,7 +18,7 @@ class Promo extends React.Component {
       const spanS = document.querySelector('.spanS')
 
       const currentTime = new Date().getTime();
-      const endTime = new Date("2020-03-01 23:59:00");
+      const endTime = new Date("2020-05-05 23:59:00");
 
       const days = Math.floor((endTime / (1000 * 60 * 60 * 24)) - (currentTime / (1000 * 60 * 60 * 24)));
       const hours = Math.floor((endTime / (1000 * 60 * 60) - currentTime / (1000 * 60 * 60)) % 24)
@@ -43,7 +43,7 @@ class Promo extends React.Component {
       <div style={this.state.active ? { top: '50%', left: '42.5%' } : { top: '50%', left: '-44%' }} className="promoModal">
         <div onClick={() => this.clickPromoHandle()} className='xBtnPromo'><i className="fas fa-times"></i></div>
         <h1 className='promo'>PROMOCJA</h1>
-        <h2>KUP PAKIET DO 01.03.20 </h2>
+        <h2>KUP PAKIET DO 05.05.20 </h2>
         <div className="countingDown">
           <h2 className="h2">
             <div>Dni</div> <span className="spanD"></span>
