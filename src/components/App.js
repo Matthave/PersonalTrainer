@@ -103,35 +103,36 @@ class App extends Component {
   }
 
   render() {
+    const {opacityH2, opacityBanner1, opacityBanner2, opacityBanner3, opacityAllOffer, color, } = this.state
     return (
       <div className="app">
         <Promo />
         <div className="wrap">
           <Nav />
           <main>
-            <Header opacity={this.state.opacityH2} />
+            <Header opacity={opacityH2} />
             <Slider
               txt={sliderTxt1}
-              color={this.state.color} />
+              color={color} />
             <SectionOne
-              opacity1={this.state.opacityBanner1}
-              opacity2={this.state.opacityBanner2}
-              opacity3={this.state.opacityBanner3}
-              color={this.state.color} />
+              opacity1={opacityBanner1}
+              opacity2={opacityBanner2}
+              opacity3={opacityBanner3}
+              color={color} />
             <Slider
               txt={sliderTxt2}
-              color={this.state.color} />
+              color={color} />
             <SectionTwo
-              color={this.state.color}
-              opacity={this.state.opacityAllOffer}
+              color={color}
+              opacity={opacityAllOffer}
             />
             <Slider
               txt={sliderTxt3}
-              color={this.state.color} />
-            <SectionTariff color={this.state.color} />
+              color={color} />
+            <SectionTariff color={color} />
             <Slider
               txt={sliderTxt4}
-              color={this.state.color} />
+              color={color} />
           </main>
           <Footer />
         </div>
