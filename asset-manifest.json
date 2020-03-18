@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/PersonalTrainer/static/css/main.7adbf70d.chunk.css",
-    "main.js": "/PersonalTrainer/static/js/main.affe7b23.chunk.js",
-    "main.js.map": "/PersonalTrainer/static/js/main.affe7b23.chunk.js.map",
+    "main.css": "/PersonalTrainer/static/css/main.b4ce4e4a.chunk.css",
+    "main.js": "/PersonalTrainer/static/js/main.c7c946e8.chunk.js",
+    "main.js.map": "/PersonalTrainer/static/js/main.c7c946e8.chunk.js.map",
     "runtime-main.js": "/PersonalTrainer/static/js/runtime-main.1f3512d5.js",
     "runtime-main.js.map": "/PersonalTrainer/static/js/runtime-main.1f3512d5.js.map",
     "static/js/2.342a115b.chunk.js": "/PersonalTrainer/static/js/2.342a115b.chunk.js",
     "static/js/2.342a115b.chunk.js.map": "/PersonalTrainer/static/js/2.342a115b.chunk.js.map",
     "index.html": "/PersonalTrainer/index.html",
-    "precache-manifest.7875f006b14c2762ce14b1233347ad11.js": "/PersonalTrainer/precache-manifest.7875f006b14c2762ce14b1233347ad11.js",
+    "precache-manifest.5734d16400b1e7bac78798f0cc001631.js": "/PersonalTrainer/precache-manifest.5734d16400b1e7bac78798f0cc001631.js",
     "service-worker.js": "/PersonalTrainer/service-worker.js",
-    "static/css/main.7adbf70d.chunk.css.map": "/PersonalTrainer/static/css/main.7adbf70d.chunk.css.map",
+    "static/css/main.b4ce4e4a.chunk.css.map": "/PersonalTrainer/static/css/main.b4ce4e4a.chunk.css.map",
     "static/js/2.342a115b.chunk.js.LICENSE.txt": "/PersonalTrainer/static/js/2.342a115b.chunk.js.LICENSE.txt",
     "static/media/SectionOne.css": "/PersonalTrainer/static/media/gymImg.e2525696.jpg",
     "static/media/App.css": "/PersonalTrainer/static/media/cityDesktop.dea97e6f.jpg",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.1f3512d5.js",
     "static/js/2.342a115b.chunk.js",
-    "static/css/main.7adbf70d.chunk.css",
-    "static/js/main.affe7b23.chunk.js"
+    "static/css/main.b4ce4e4a.chunk.css",
+    "static/js/main.c7c946e8.chunk.js"
   ]
 }
